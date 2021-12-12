@@ -1,0 +1,49 @@
+package com.company;
+import javax.swing.*;
+import java.time.LocalTime;
+import java.util.Scanner;
+
+
+public class Main {
+
+    public static void main(String[] args) {
+        String miesiądz = JOptionPane.showInputDialog("podaj nazwe miesiaca");
+        switch (miesiądz){
+            case "Styczen":
+                JOptionPane.showMessageDialog(null , "ma 31 dni");
+                break;
+            case "luty":
+                JOptionPane.showMessageDialog(null , "ma 28 w tym roku dni");
+                break;
+            case "marzec":
+                JOptionPane.showMessageDialog(null , "ma 30 dni");
+                break;
+            case "kwiecien":
+                JOptionPane.showMessageDialog(null , "ma 31 dni");
+                break;
+            case "maj":
+                JOptionPane.showMessageDialog(null , "ma 31 dni");
+                break;
+            case "czerwic":
+                JOptionPane.showMessageDialog(null , "ma 30 dni");
+                break;
+            case "lipiec":
+                JOptionPane.showMessageDialog(null , "ma 31 dni");
+                break;
+            case "sierpien":
+                JOptionPane.showMessageDialog(null , "ma 30 dni");
+                break;
+            case "wrzesien":
+                JOptionPane.showMessageDialog(null , "ma 31 dni");
+                break;
+            case "listopad":
+                JOptionPane.showMessageDialog(null , "ma 30 dni");
+                break;
+            case "grudzien":
+                JOptionPane.showMessageDialog(null , "ma 31dni");
+                break;
+
+        }
+
+    }
+
