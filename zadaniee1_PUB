@@ -1,0 +1,36 @@
+/* Zapytaj użytkownika o wiek i na podstawie wieku dobierz produkt spożywczy ;)
+
+* 0-3 → kaszka z mleczkiem
+* 4-17 → cola
+* 18-64 → piwko
+* 65+ → biovital
+*/
+package com.company;
+import javax.swing.*;
+
+import static javax.swing.JOptionPane.showMessageDialog;
+
+public class Main {
+
+    public static void main(String[] args) {
+	String a = JOptionPane.showInputDialog(null ,"ile masz lat");
+   int wiek = Integer.parseInt(a);
+   if(wiek <= 3 ){
+       showMessageDialog(null,"dostsajesz mleko");
+
+        }
+         if (wiek <= 17 && wiek > 3) {
+             showMessageDialog(null, "dosetajesz fante");
+
+         }
+  if (wiek >= 18 && wiek <= 64) {
+      showMessageDialog(null,"dostajesz piwo ");
+
+        }
+
+
+        if(wiek>64){
+            showMessageDialog(null,"emerytura");
+        }
+    }
+}
