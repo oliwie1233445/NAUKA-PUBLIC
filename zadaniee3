@@ -1,0 +1,20 @@
+package com.company;
+
+
+import java.util.Scanner;
+
+public class Main {
+
+    public static void main(String[] args) {
+        System.out.print("podaj lidzbe calkowita");
+	Scanner s = new Scanner(System.in);
+    int liczba = s.nextInt();
+        System.out.print("podaj slowo");
+        Scanner a = new Scanner(System.in);
+        String slowo = a.nextLine();
+for(int i = 0; liczba > i ; i++ ){
+    System.out.print(slowo+ "      "+ "essa");
+}
+
+    }
+}
